@@ -1,0 +1,51 @@
+body {
+    background-color: transparent !important;
+}
+
+.wrapper {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.changeColorBtn {
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff4917, #f8951d);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.changeColorBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #f8951d, #ff4917);
+}
+
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    margin-left: 5px;
+    font-weight: bold;
+}
